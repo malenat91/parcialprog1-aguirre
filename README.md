@@ -66,22 +66,4 @@ El proyecto se encuentra dividido en tres módulos:
 5. Según la opción seleccionada, se muestran los listados, las estadísticas, el ranking o los resultados de las búsquedas y el análisis de nombres.
 6. El menú vuelve a mostrarse hasta que el usuario selecciona la opción de salir.
 
-## 💻 Ejemplo de ejecución
-
-### 📥 Datos ingresados
-
-- Cantidad de alumnos: 3
-- Alumno 1: Malena
-  - Parcial 1: 10
-  - Parcial 2: 9
-- Alumno 2: Giuli
-  - Parcial 1: 1
-  - Parcial 2: 3
-- Alumno 3: Lautaro
-  - Parcial 1: 6
-  - Parcial 2: 5
-
-### 📋 Resultado: listado de alumnos
-
-```text
-Listado
+    
