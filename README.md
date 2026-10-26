@@ -43,9 +43,9 @@ El proyecto se encuentra dividido en tres módulos:
 - `validaciones.py`: contiene las funciones encargadas de validar los nombres, las notas y la cantidad de alumnos.
 - `procesamiento.py`: contiene las funciones para calcular promedios, obtener estadísticas, ordenar los alumnos y analizar cadenas de caracteres.
 
+### Para ejecutar el programa, es necesario tener Python instalado y abrir el proyecto en un editor de código, como Visual Studio Code. Luego, ejecutar el archivo main.py y seguir las instrucciones del menú.
 
 ## 🔄 Flujo del programa
-### Para ejecutar el programa, es necesario tener Python instalado y abrir el proyecto en un editor de código, como Visual Studio Code. Luego, ejecutar el archivo main.py y seguir las instrucciones del menú.
 
 Se muestra el menú principal.
 El usuario selecciona una opción.
@@ -53,5 +53,7 @@ Si elige cargar alumnos, se solicitan y validan los datos.
 Se calculan y almacenan los promedios individuales.
 Según la opción seleccionada, se muestran los listados, las estadísticas, el ranking o los resultados de las búsquedas y el análisis de nombres.
 El menú vuelve a mostrarse hasta que el usuario selecciona la opción de salir.
+
+
 
 ## ☆¡Gracias por leer!☆
