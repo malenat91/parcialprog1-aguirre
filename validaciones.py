@@ -41,30 +41,18 @@ def validar_nota(numero_parcial: int) -> int:
 def validar_nombre() -> str:
     """
     Valida que el nombre del alumno cumpla con todo lo solicitado:
-    -que tenga al menos 5 caracteres
-    -que contenga solamente letras mayúsculas, minúsculas o espacios
-    -que no contenga números ni otros caracteres especiales
+    - Que tenga al menos 5 caracteres.
+    - Que contenga solamente letras mayúsculas, minúsculas o espacios.
+    - Que no contenga números ni otros caracteres especiales.
 
     returns:
-        Devuelve (return) un nombre válido.
+        Devuelve un nombre válido.
     """
-    
+
     nombre = input("Ingrese el nombre del alumno: ")
-    valido = True
+    valido = False  # bandera para controlar el while
 
-    for i in range(len(nombre)):
-        caracter = nombre[i]
-
-        if not (
-            caracter >= "A" and caracter <= "Z"
-            or caracter >= "a" and caracter <= "z"
-            or caracter == " "
-        ):
-            valido = False
-
-    while len(nombre) < 5 or not valido:
-        print("Ingrese al menos cinco caracteres, usando letras y espacios.")
-        nombre = input("Ingrese el nombre del alumno: ")
+    while valido == False:
         valido = True
 
         for i in range(len(nombre)):
@@ -77,4 +65,13 @@ def validar_nombre() -> str:
             ):
                 valido = False
 
-    return nombre
+        if len(nombre) < 5:
+            print("El nombre debe tener al menos cinco caracteres.")
+
+        elif valido == False:
+            print("Ingrese un nombre usando solamente letras y espacios.")
+
+        else:
+            return nombre
+
+        nombre = input("Ingrese el nombre del alumno: ")

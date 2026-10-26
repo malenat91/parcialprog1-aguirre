@@ -25,7 +25,7 @@ while opcion != 7:
     print("3 - Mostrar estadísticas")
     print("4 - Ver ranking")
     print("5 - Buscar alumno")
-    print("6 - Analizar un nombre")
+    print("6 - Juego con un nombre")
     print("7 - Salir")
     print("****************************")
     opcion = int(input("Seleccione una  opción: "))

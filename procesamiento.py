@@ -270,15 +270,16 @@ def analizar_nombre() -> None:
         caracter = nombre[i]
 
         if (
-            caracter == "a" or caracter == "e"
-            or caracter == "i" or caracter == "o"
-            or caracter == "u" or caracter == "A"
-            or caracter == "E" or caracter == "I"
-            or caracter == "O" or caracter == "U"
+            caracter == "a" or caracter == "A"
+            or caracter == "e" or caracter == "E"
+            or caracter == "i" or caracter == "I"
+            or caracter == "o" or caracter == "O"
+            or caracter == "u" or caracter == "U"
         ):
             cantidad_vocales = cantidad_vocales + 1
 
-    for i in range(len(nombre) - 1, -1, -1):
+    for i in range(len(nombre) - 1, -1, -1): # ult letra, indice / limite -1 (0, la primera) / se resta 1 por vuelta
+                                             # inicio, fin, salto
         invertido = invertido + nombre[i]
 
     print(f"Nombre del alumnx: " + nombre)
