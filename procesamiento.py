@@ -183,8 +183,8 @@ def ordenar_por_promedio(
         notas_2_copia = notas_2_copia + [notas_parcial_2[i]]
         promedios_copia = promedios_copia + [promedios[i]]
 
-    for i in range(len(promedios_copia) - 1): #i marca la pasada/vuelta
-        for j in range(len(promedios_copia) - 1 - i): #j marca la posicion que se compara con la sig
+    for i in range(len(promedios_copia) - 1): # i marca la pasada/vuelta
+        for j in range(len(promedios_copia) - 1 - i): # j marca la posicion que se compara con la sig
             if promedios_copia[j] < promedios_copia[j + 1]:
                 auxiliar = promedios_copia[j]
                 promedios_copia[j] = promedios_copia[j + 1]
