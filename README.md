@@ -25,20 +25,6 @@ El sistema desarrollado es una aplicación de consola que permite gestionar las 
 - Buscar alumnos por nombre.
 - Analizar nombres mediante el conteo de vocales y la inversión de sus caracteres.
 
-### 📌 Consignas solicitadas
-
-- Validación de la cantidad de alumnos, los nombres y las notas.
-- Uso de listas paralelas para almacenar los datos.
-- Cálculo de promedios mediante operaciones aritméticas.
-- Uso de acumuladores para calcular el promedio general.
-- Uso de máximos y mínimos para identificar el mejor y el peor promedio.
-- Uso de contadores para clasificar a los alumnos según su rendimiento.
-- Implementación del algoritmo de ordenamiento burbuja.
-- Recorrido de cadenas carácter por carácter.
-- Búsqueda de alumnos mediante un bucle.
-- Implementación de un menú principal con `match-case`.
-- Modularización del programa en tres archivos.
-
 ### ⚙️ Funcionalidades implementadas
 
 1. **📥 Cargar alumnos:** solicita la cantidad de alumnos, sus nombres y las notas de ambos parciales. Valida que los datos ingresados sean correctos.
@@ -57,13 +43,15 @@ El proyecto se encuentra dividido en tres módulos:
 - `validaciones.py`: contiene las funciones encargadas de validar los nombres, las notas y la cantidad de alumnos.
 - `procesamiento.py`: contiene las funciones para calcular promedios, obtener estadísticas, ordenar los alumnos y analizar cadenas de caracteres.
 
-### 🔄 Flujo del programa
 
-1. Se muestra el menú principal.
-2. El usuario selecciona una opción.
-3. Si elige cargar alumnos, se solicitan y validan los datos.
-4. Se calculan y almacenan los promedios individuales.
-5. Según la opción seleccionada, se muestran los listados, las estadísticas, el ranking o los resultados de las búsquedas y el análisis de nombres.
-6. El menú vuelve a mostrarse hasta que el usuario selecciona la opción de salir.
+## 🔄 Flujo del programa
+### Para ejecutar el programa, es necesario tener Python instalado y abrir el proyecto en un editor de código, como Visual Studio Code. Luego, ejecutar el archivo main.py y seguir las instrucciones del menú.
 
-    
+Se muestra el menú principal.
+El usuario selecciona una opción.
+Si elige cargar alumnos, se solicitan y validan los datos.
+Se calculan y almacenan los promedios individuales.
+Según la opción seleccionada, se muestran los listados, las estadísticas, el ranking o los resultados de las búsquedas y el análisis de nombres.
+El menú vuelve a mostrarse hasta que el usuario selecciona la opción de salir.
+
+## ☆¡Gracias por leer!☆
